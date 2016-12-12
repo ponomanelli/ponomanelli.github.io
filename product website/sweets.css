@@ -1,0 +1,406 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body html{
+  font-family: Arial;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+/*Header*/
+
+header {
+  float: left;
+  background-color: white;
+  width: 99.4%;
+  padding: 0.3%;
+  color: white;
+  border-bottom: 5px solid #333;
+  position: relative;
+  top: -150px;
+}
+
+#logo {
+    float: left;
+    width: 30%;
+    position: relative;
+    top: 65px;
+}
+
+#IconBar {
+    float: left;
+    width: 37%;
+    position: relative;
+    left: 895px;
+    top: 95px;
+    /*text*/
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#Info>p {
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 1em;
+    position: relative;
+    top: 170px;
+    left: 80px;
+    width: 300px;
+}
+
+#reg_auth {
+    float: right;
+    width: 30%; 
+    position: relative;
+    top: 145px;
+}
+
+
+span {
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+#logo>img {
+    border-radius: 50px;
+}
+
+#IconBar {
+    float: left;
+    width: 37%;
+    position: relative;
+    left: 895px;
+    top: 95px;
+    /*text*/
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#IconBar>a {
+    color: white;
+}
+
+#IconBar>a:hover {
+    border-bottom: 3px solid black;
+}
+
+
+#reg_auth>a>div.btn {
+    float: right;
+    margin-right: 1%;
+    margin-top: 5%;
+    padding: 5px 9px;
+    font-size: 1em;
+    background-color: white;
+}
+
+#reg_auth>a>div.btnn {
+    float: right;
+    margin-right: 3%;
+    margin-left: -3%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 1.5px 9px;
+    font-size: 1.2em;
+}
+
+#reg_auth>a:hover>div.btn {
+    border-bottom: 3px solid black;
+}
+
+#reg_auth>a {
+    color: black;
+}
+
+/*Main Menu*/
+
+nav ul {
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Overlock', cursive;
+      background-color: white;
+      margin: 10px;
+  }
+
+  nav li {
+      display: inline;
+      list-style-type: none;
+      position: relative;
+      top: -100px;
+  }
+
+  nav li a {
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      margin: 5px;
+      background-color: none;
+  }
+
+  nav li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 0px #4d4d4d;
+    }
+/*Footer*/
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#content {
+    flex: 1 0 auto;
+}
+
+footer {
+    float: left;
+    background-color: white;
+    width: 99.4%;
+    padding: 0.3%;
+    text-align: center;
+    position: relative;
+    top: -170px;
+}
+
+@media (max-width: 1000px) {
+    #clear {
+    clear: both;
+    }
+}
+
+#rights {
+    float: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#rights>a {
+    color: darkcyan;
+}
+
+/*Sidebar*/
+
+#sidebar ul {
+    text-align: left;
+    position: relative;
+    top: -90px;
+    background-color: none;
+    font-family: 'Overlock', cursive;
+}
+
+#sidebar li {
+    display: block;
+    list-style-type: none;
+    padding: 15px;
+}
+
+#sidebar li a{
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      margin: 5px;
+      background-color: none;
+}
+
+#sidebar a:hover {
+    border-bottom: 3px solid black;
+    }
+
+/*Columns*/
+
+    TD {
+    vertical-align: top; /* Выравнивание по верхнему краю ячейки */
+   }
+   #col1 {
+    width: 20%; /* Ширина 1 колонки */
+    position: relative;
+    top: 100px;
+   }
+
+#col1 ul {
+    background-color: grey;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    left: 50px;
+}
+  #col2 {
+    width: 40%; /* Ширина 3 колонки */
+    position: relative;
+    top: -50px;
+    left: 180px;
+    /*text*/
+    text-align: center;
+    font-size: 1em;
+  }
+
+  #col2 h2 {
+      font-family: 'Overlock', cursive;
+  }
+
+  #col2 h5 {
+      font-family: 'Dancing Script', cursive;
+      color: grey;
+  }
+
+#col2 p {
+    position: relative;
+    top: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#col2 p1 {
+    position: relative;
+    top: 50px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#col2 p2 {
+    position: relative;
+    top: 80px;
+    font-family: 'Overlock', cursive;
+    text-align: left;
+    font-size: 1em;
+}
+
+   #col3 {
+    width: 60%; /* Ширина 3 колонки */
+    position: relative;
+    top: -120px;
+    left: 250px;
+   }
+   
+   #col4 {
+    width: 30%; /* Ширина 4 колонки */
+    position: relative;
+    top: -10px;
+    left: 170px;
+   }
+
+   /* Slideshow container */
+
+.slideshow-container {
+  max-width: 1800px;
+  position: relative;
+  top: 50px;
+  margin: auto;
+}
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: grey;
+}
+
+
+#cart>a>div.bttn {
+    float: right;
+    text-align: center;
+    width: 200px;
+    margin-right: 1%;
+    margin-top: 5%;
+    padding: 5px 9px;
+    font-size: 1em;
+    background-color: black;
+    position: relative;
+    top: 50px;
+    border-top:3px solid black;
+    border-left:3px solid black;
+    border-right:3px solid black;
+    border-bottom: 3px solid black;
+    
+}
+
+#cart>a:hover>div.bttn {
+    border-top:6px solid grey;
+    border-left:6px solid grey;
+    border-right:6px solid grey;
+    border-bottom: 6px solid grey;
+}
+
+#cart>a {
+    color: white;
+}
+
+#col4 h2 {
+    font-size: 1.7em;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: -35px;
+}
+
+/*picture*/
+#pic img {
+    position: relative;
+    top: -80px;
+}
+
+#v iframe {
+    position: relative;
+    left: 130px;
+    margin: 30px;
+}
+
+#text p {
+    position: relative;
+    left: 130px;
+    margin: 30px;
+    font-family: 'Overlock', cursive;
+}

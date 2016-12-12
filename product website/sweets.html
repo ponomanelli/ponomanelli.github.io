@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product Website</title>
+  <link rel="stylesheet" href="sweets.css">
+  <link href="img/logo.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+
+<body>
+
+      <div id="wrapper">
+          <div id="content">
+    </div>
+    </div>
+<header>
+      <div id="Info">
+          <p>A portion of every purchase goes to support<span> The Maria Sharapova Foundation.<span></p>
+      </div>
+
+       <div id="IconBar">   
+        <a href="https://www.instagram.com/sugarpova/"> <img src="img/inst.png" alt="sugarpova instagram" width="50" height="50"></a>
+        <a href="https://www.facebook.com/Sugarpova"> <img src="img/fb.png" alt="sugarpova facebook" width="50" height="50"></a>
+        <a href="https://twitter.com/sugarpova"> <img src="img/tw.png" alt="sugarpova twitter" width="50" height="50"></a>
+        <a href="https://www.youtube.com/channel/UC3nm3SyjryOyXn2O3MVDuvg"> <img src="img/you.png" alt="sugarpova youtube" width="50" height="50"></a>
+      </div>
+
+      <div id="logo">
+        <a href="home.html" title="Home Page">
+            <img src="img/logo.ico" alt="sugarpovalogo" width="320"" height="200">
+        </a>
+      </div>
+      
+      <div id="reg_auth">
+          <a href="#" title="Shopping cart">
+          <div class="btnn">
+            <img src="img/cart.png" alt="shoppers cart" width="30" height="30">
+          </div>
+        </a>
+        <a href="#" title="My Account">
+          <div class="btn">
+            My Account
+          </div>
+        </a>
+      </div>   
+  </header>
+
+  <nav id="MainMenu">
+      <ul>
+        <li><a href="sweets.html">SWEETS</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">STORES</a></li>
+      </ul>
+    </nav>
+
+  
+   <div id="pic">
+  <img src="img/sugar5.jpg" alt="sugarpova" width="100%">
+</div>
+
+<table width="950" cellpadding="5" cellspacing="0">
+   <tr>
+    <td id="col1" width="150">  
+      <div id="sidebar">
+        <ul>
+          <li><a href="default.asp">CHOCOLATE</a></li>
+          <li><a href="news.asp">GUMMIES</a></li>
+          <li><a href="contact.asp">GUMBALLS</a></li>
+        </ul>
+  </div>
+  </td>
+    <td id="col2" width="200">
+      <h2>MILK CHOCOLATE</h2>
+      <h5>SMOOTH & DECADENT</h5>
+      <p>Take a break from the hustle and bustle with a smooth, creamy bite of premium milk chocolate. We won't tell if it ends up being more than just one bite.</p>
+      <p1>Our chocolate is crafted by Baron Chocolatier of Poland</p1>
+      <p2> 
+        <ul>
+          <li>Made with natural ingredients</li>
+          <li>Non-GMO</li>
+          <li>Kosher</li>
+          <li>Halal</li>
+        </ul>
+      </p2>
+    </td>
+    <td id="col3" width="1000">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/coc.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/c.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/co.png" style="width:100%">
+</div>
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:right">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); //Change image every 5 seconds
+}
+</script>
+  <div id="col4" width="400">
+      <h2>$4.99</h2>
+      <div id="cart">
+          <a href="#" title="Shopping cart">
+          <div class="bttn">
+            <h3>ADD TO CART</h3>
+          </div>
+        </a>
+    </div>
+</td>
+   </tr>
+  </table>
+
+<div id="text">
+  <p>You will never regret indulging yourself with the confections produced by these premier chocolate maker. Don't believe us? Try it!</p>
+</div>
+<div id="v">
+  <iframe width="1000" height="574" src="http://fave.api.cnn.io/v1/fav/?video=sports/2016/04/29/maria-sharapova-sugarpova-chocolate-taste-test-orig.cnn&customer=cnn&edition=domestic&env=prod" frameborder="0"></iframe>
+</div>
+
+
+     
+   
+
+
+
+
+
+
+
+
+
+     
+
+   </body>
+
+</html>

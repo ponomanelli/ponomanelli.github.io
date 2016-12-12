@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product Website</title>
+  <link rel="stylesheet" href="home.css">
+  <link href="img/logo.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+
+<body>
+
+      <div id="wrapper">
+          <div id="content">
+    </div>
+    </div>
+<header>
+      <div id="Info">
+          <p>A portion of every purchase goes to support<span> The Maria Sharapova Foundation.<span></p>
+      </div>
+
+       <div id="IconBar">   
+        <a href="https://www.instagram.com/sugarpova/"> <img src="img/inst.png" alt="sugarpova instagram" width="50" height="50"></a>
+        <a href="https://www.facebook.com/Sugarpova"> <img src="img/fb.png" alt="sugarpova facebook" width="50" height="50"></a>
+        <a href="https://twitter.com/sugarpova"> <img src="img/tw.png" alt="sugarpova twitter" width="50" height="50"></a>
+        <a href="https://www.youtube.com/channel/UC3nm3SyjryOyXn2O3MVDuvg"> <img src="img/you.png" alt="sugarpova youtube" width="50" height="50"></a>
+      </div>
+
+      <div id="logo">
+        <a href="home.html" title="Home Page">
+            <img src="img/logo.ico" alt="sugarpovalogo" width="320"" height="200">
+        </a>
+      </div>
+      
+      <div id="reg_auth">
+          <a href="#" title="Shopping cart">
+          <div class="btnn">
+            <img src="img/cart.png" alt="shoppers cart" width="30" height="30">
+          </div>
+        </a>
+        <a href="#" title="My Account">
+          <div class="btn">
+            My Account
+          </div>
+        </a>
+      </div>   
+  </header>
+
+  
+
+  <nav id="MainMenu">
+      <ul>
+        <li><a href="sweets.html">SWEETS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="#">STORES</a></li>
+      </ul>
+    </nav>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/sugar1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/sugar.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/sugar2.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 3 seconds
+}
+</script>
+
+     <footer>
+    <div id="rights">
+        <a href="">Rights are protected &copy; 2016</a>
+    </div>
+  </footer> 
+  </body>
+
+</html>
