@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Oxford Town Hall</title>
+	<link rel="shortcut icon" href="images/oxford_logo.jpg">
+	<link rel="stylesheet" href="styles/member.css">
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+	
+<body>
+	<header>
+		<img src="images/oxford.jpg" alt="Town Hall Logo" width="80">
+		<hgroup>
+			<h1>Oxford Town Hall</h1>
+			<h2>Bringing cutting-edge speakers to the valley for 75 years!</h2>
+		</hgroup>
+    </header>
+	<nav id="nav_bar">
+    	<ul>
+    		<li><a href="oxford.html">Home</a></li>
+    		<li><a href="tickets.html">Get Tickets</a></li>
+    		<li><a class="current" href="members.html">Become a Member</a></li>
+    		<li><a href="">About Us</a></li>
+    	</ul>
+    </nav>
+    <aside> 
+	<!-- Add the codes for showing a sidebar and its content as shown in oxford.html. -->
+	 <h1>2017 guest speakers</h1>
+        <nav id="decor">
+		  <ul>
+		  	<li>January 19, 2017: <a id="date_passed" href="speakers/toobin.html">Jeffrey Toobin</a></li>
+			<li>January 26, 2017: <a id="date_passed" href="speakers/sorkin.html">Andrew Ross Sorkin</a></li>
+			<li>February 18, 2017: <a href="speakers/chua.html">Amy Chua</a></li>
+			<li>February 25, 2017: <a href="sampson.html">Scott Sampson</a></li>
+			<li>March 21, 2017: <a href="speakers/eire.html">Carlos Eire</a></li>
+			<li>April 18, 2017: <a href="speakers/tynan.html">Ronan Tynan</a></li>
+		  </ul>
+		</nav>
+	</aside> 
+	<article>
+		<h1>Become a Member</h1>
+    	<form action="register_account.html" method="get"
+        	name="registration_form" id="registration_form">
+    		<fieldset>
+	        	<legend>Registration Information</legend>
+	        	<label for="email">E-Mail:</label>
+	        	<input type="email" name="email" id="email" autofocus required><br>
+	        	<label for="password">Password:</label>
+	        	<input type="password" name="password" id="password" required
+	                   placeholder="At least 6 letters or numbers" ><br>
+	        	<label for="verify">Verify Password:</label>
+	        	<input type="password" name="verify" id="verify" required><br>
+    		</fieldset>
+    		<fieldset>			
+			<legend> Membership Information </legend>
+                <label for="first_name">First Name:</label>
+	        	<input type="first_name" name="first_name" id="first_name" autofocus required><br>
+	        	<label for="last_name">Last Name:</label>
+	        	<input type="last_name" name="last_name" id="last_name" required><br>
+	        	<label for="address">Address:</label>
+	        	<input type="address" name="address" id="address"><br>
+                <label for="city">City:</label>
+	        	<input type="city" name="city" id="city" autofocus required><br>
+                <label for="state">State:</label>
+	        	<input type="state" name="state" id="state" required placeholder="2-character code"><br>
+                <label for="zip_code">ZIP Code:</label>
+	        	<input type="zip_code" name="zip_code" id="zip_code" required placeholder="5 or 9 digits"><br>
+                <label for="phone_number">Phone Number:</label>
+	        	<input type="phone_number" name="phone_number" id="phone_number" placeholder="999-999-9999"><br>
+                <label for="membership_type">Membership Type:</label>
+                <select>
+                    <option value="junior">Junior</option>
+                    <option value="regular">Regular</option>
+                    <option value="charter">Charter</option>
+                </select><br>
+			</fieldset>
+            
+			<fieldset id="buttons">
+				<legend>Submit Your Membership</legend>
+                <div id="but">
+				<label>&nbsp;</label>
+				<input type="submit" id="submit" value="Submit">
+                <label>&nbsp;</label>
+				<input type="reset" id="reset" value="Reset Fields">
+                </div>
+			</fieldset>
+		</form>
+	</article>
+	<footer>
+		<p>&copy; Copyright 2017 Oxford Town Hall.</p>
+	</footer>
+	
+</body>
+</html>
