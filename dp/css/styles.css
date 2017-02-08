@@ -1,0 +1,78 @@
+/* body, fotter and wrapper */
+body {
+    background: skyblue;
+    margin: 0;
+}
+.port {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.port a:hover {
+    text-decoration: underline;
+} 
+ .brand-logo {
+    font-family: 'Raleway', sans-serif; 
+    margin-left: 20px;
+    font-weight: 300;
+}
+nav li a.current {
+    color: skyblue;
+}
+nav li a:hover {
+    text-decoration: underline;
+}
+.nav-wrapper li a {
+    font-family: 'Raleway', sans-serif;
+}
+.brand-logo {
+    font-family: 'Raleway', sans-serif; 
+    margin-left: 20px;
+    font-weight: 300;
+}
+/* gallery */
+.thumbnails img {
+    height: 80px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0 10px 10px 0;
+        }
+.thumbnails img:hover {
+    border: 4px solid #00ccff;
+	cursor:pointer;
+}
+h3 {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Raleway', sans-serif; 
+} 
+
+/*contact page*/
+p.mail {
+    text-align: center;
+    padding-top: 20px;
+}
+h5.mail {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Raleway', sans-serif; 
+    padding-bottom: 20px;
+} 
+
+/* about page */
+p.bio {
+   text-align: center;
+    padding-top: 20px;
+}
+
+p.about {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 30px;
+}
+
+      
+
+
+    
